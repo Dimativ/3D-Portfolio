@@ -1,8 +1,10 @@
+import { Hero } from './sections/Hero.tsx';
+
 const App = () => {
   return (
     <main>
       <div>
-        <h1>App</h1>
+        <Hero />
       </div>
     </main>
   );
