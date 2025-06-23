@@ -1,11 +1,8 @@
-import type { FC } from 'react';
 import CountUp from 'react-countup';
 
 import { counterItems } from '../constants';
 
-interface AnimatedCounterProps {}
-
-export const AnimatedCounter: FC<AnimatedCounterProps> = () => {
+export const AnimatedCounter = () => {
   return (
     <div id="counter" className="padding-x-lg xl:mt-0 mt-32">
       <div className="mx-auto grid-4-cols">
