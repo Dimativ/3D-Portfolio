@@ -1,3 +1,5 @@
+import type { ExperienceCardType } from '../types';
+
 const navLinks = [
   {
     name: 'Work',
@@ -145,44 +147,50 @@ const techStackIcons = [
   },
 ];
 
-const expCards = [
+const expCards: ExperienceCardType[] = [
   {
     review:
-      'Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.',
-    imgPath: '/images/exp1.png',
-    logoPath: '/images/logo1.png',
+      'Dmytro brought exceptional creativity and technical expertise to our team, optimizing our React/Next.js applications and building a custom Contentful extension that cut our billing costs by threefold. His work on event tracking integrations and custom Shopify UI plugins significantly improved our e-commerce performance and analytics capabilities.',
+    imgPath: '/images/exp1.svg',
+    logoPath: '/images/logo1.svg',
     title: 'Frontend Developer',
-    date: 'January 2023 - Present',
+    date: 'January 2024 - Present',
     responsibilities: [
-      'Developed and maintained user-facing features for the Hostinger website.',
-      'Collaborated closely with UI/UX designers to ensure seamless user experiences.',
-      'Optimized web applications for maximum speed and scalability.',
+      'Developing and optimizing web applications using React.js, Next.js, TypeScript, and JavaScript.',
+      'Implementing responsive and accessible UI.',
+      'Writing and maintaining unit and integration tests with Jest, Cypress, and React Testing Library.',
+      'Working with Shopify to integrate e-commerce functionality.',
+      'Developing custom Shopify UI plugins to extend e-commerce functionality.',
+      'Integrating Contentful CMS for dynamic content management.',
+      'Developed a custom Contentful extension that reduced billing costs by 3x.',
+      'Implement event tracking system, implement integrations with 3rd-party analytics tools.',
+      'Building custom discount logic using Shopify Storefront API to enable flexible pricing rules.',
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      'Working with Dmytro was a game-changer for the Abu Dhabi Festival website: he spearheaded performance optimizations that boosted Core Web Vitals and load speeds by 20%, and delivered pixel-perfect, fully responsive UIs across 30+ page layouts, resulting in a 30% lift in mobile retention. His collaborative approach and strict adherence to brand and accessibility standards ensured timely delivery of a high-quality product.',
     imgPath: '/images/exp2.png',
     logoPath: '/images/logo2.png',
-    title: 'Full Stack Developer',
-    date: 'June 2020 - December 2023',
+    title: 'Frontend Developer',
+    date: 'November 2024 - March 2025',
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      'Worked with backend engineers to integrate APIs seamlessly with the frontend.',
-      'Contributed to open-source projects that were used with the Docker ecosystem.',
+      'Collaborated closely with designers and stakeholders to align on project goals, ensuring timely delivery and quality outcomes.',
+      'Spearheaded performance optimization of the website, improving load speed and Core Web Vitals, which resulted in a 20% increase in overall site performance',
+      'Built a fully responsive, pixel-perfect UI across 30+ unique page layouts, strictly adhering to brand guidelines and accessibility standards, contributing to a 30% increase in mobile retention time',
     ],
   },
   {
     review:
-      'Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.',
+      'Dmytro consistently demonstrated ownership and technical insight across multiple web projects-from proof-of-concept to production-proactively identifying bottlenecks and ensuring smoother handoffs and stable releases. His clear communication with clients and stakeholders, combined with his problem-solving skills, made him a reliable partner in aligning technical solutions with business goals.',
     imgPath: '/images/exp3.png',
     logoPath: '/images/logo3.png',
-    title: 'React Native Developer',
-    date: 'March 2019 - May 2020',
+    title: 'Frontend Developer',
+    date: 'November 2022 - October 2023',
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      'Improved app performance and user experience through code optimization and testing.',
-      'Coordinated with the product team to implement features based on feedback.',
+      'Contributed to multiple web projects across all phases of the development lifecycle — from proof-of-concept to production-ready applications.',
+      'Actively engaged with clients and stakeholders to gather requirements, provide technical insight, and ensure successful project alignment with business goals.',
+      'Demonstrated ownership by identifying and solving project bottlenecks, resulting in smoother handoffs and more stable releases.',
     ],
   },
 ];
