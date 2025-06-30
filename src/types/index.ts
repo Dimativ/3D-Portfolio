@@ -7,6 +7,13 @@ export type ExperienceCardType = {
   responsibilities: string[];
 };
 
+export type Testimonial = {
+  name: string;
+  mentions: string;
+  review: string;
+  imgPath: string;
+};
+
 export type TechCardType = {
   name: string;
   modelPath: string;
