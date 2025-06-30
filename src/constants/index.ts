@@ -1,4 +1,4 @@
-import type { ExperienceCardType } from '../types';
+import type { ExperienceCardType, TechCardType } from '../types';
 
 const navLinks = [
   {
@@ -114,33 +114,33 @@ const techStackImgs = [
   },
 ];
 
-const techStackIcons = [
+const techStackIcons: TechCardType[] = [
   {
-    name: 'React Developer',
+    name: 'React',
     modelPath: '/models/react_logo-transformed.glb',
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: 'Python Developer',
-    modelPath: '/models/python-transformed.glb',
-    scale: 0.8,
+    name: 'TypeScript',
+    modelPath: '/models/typeScript.glb',
+    scale: 25,
     rotation: [0, 0, 0],
   },
   {
-    name: 'Backend Developer',
-    modelPath: '/models/node-transformed.glb',
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
+    name: 'SASS',
+    modelPath: '/models/sass.glb',
+    scale: 25,
+    rotation: [0, 0, 0],
   },
   {
-    name: 'Interactive Developer',
+    name: 'Three.js',
     modelPath: '/models/three.js-transformed.glb',
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: 'Project Manager',
+    name: 'Git',
     modelPath: '/models/git-svg-transformed.glb',
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
