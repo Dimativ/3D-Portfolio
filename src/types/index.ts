@@ -6,3 +6,11 @@ export type ExperienceCardType = {
   date: string;
   responsibilities: string[];
 };
+
+export type TechCardType = {
+  name: string;
+  modelPath: string;
+  scale: number;
+  rotation: number[];
+  position?: number[];
+};
