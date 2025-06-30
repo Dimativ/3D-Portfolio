@@ -1,13 +1,17 @@
 import { type FC, type ReactNode, useRef } from 'react';
 
-import type { ExperienceCardType } from '../types';
+import type { ExperienceCardType, Testimonial } from '../types';
 
-interface GlowCardProps {
-  card: ExperienceCardType;
+interface GlowCardProps<T> {
+  card: T;
   index: number;
   children?: ReactNode;
 }
-export const GlowCard: FC<GlowCardProps> = ({ card, index, children }) => {
+export const GlowCard: FC<GlowCardProps<Testimonial | ExperienceCardType>> = ({
+  card,
+  index,
+  children,
+}) => {
   const cardRefs = useRef<HTMLDivElement[]>([]);
 
   const handleMouseMove = (index: number) => (e: React.MouseEvent<HTMLDivElement>) => {
@@ -32,7 +36,7 @@ export const GlowCard: FC<GlowCardProps> = ({ card, index, children }) => {
         if (el) cardRefs.current[index] = el;
       }}
       onMouseMove={handleMouseMove(index)}
-      className="card card-border timeline-card rounded-xl p-10"
+      className="card card-border timeline-card rounded-xl p-10 mb-5 break-inside-avoid-column"
     >
       <div className="glow" />
       <div className="flex items-center gap-1 mb-5">
