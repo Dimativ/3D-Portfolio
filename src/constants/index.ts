@@ -258,22 +258,17 @@ const testimonials = [
 const socialImgs = [
   {
     name: 'insta',
-    url: 'https://www.instagram.com/',
+    url: 'https://www.instagram.com/litva_3/',
     imgPath: '/images/insta.png',
   },
   {
-    name: 'fb',
-    url: 'https://www.facebook.com/',
-    imgPath: '/images/fb.png',
-  },
-  {
     name: 'x',
-    url: 'https://www.x.com/',
+    url: 'https://x.com/TheRealDimativ',
     imgPath: '/images/x.png',
   },
   {
     name: 'linkedin',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/in/dimativ/',
     imgPath: '/images/linkedin.png',
   },
 ];
